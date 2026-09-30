@@ -1,0 +1,147 @@
+{
+  "cases": [
+    {
+      "id": "andrew-ng",
+      "name": "Andrew Ng",
+      "identity_status": "resolved",
+      "confidence": 91,
+      "profile": {
+        "headline": "Computer Scientist · Machine Learning · Stanford University",
+        "summary": "Andrew Ng is a computer scientist known for work in machine learning and online education. Public records associate him with Stanford University, DeepLearning.AI, and Coursera, and with influential publications in unsupervised and deep learning.",
+        "education": [
+          { "institution": "University of California, Berkeley", "degree": "Ph.D.", "field": "Computer Science", "period": null, "evidenceIds": [] },
+          { "institution": "Massachusetts Institute of Technology", "degree": "M.S.", "field": null, "period": null, "evidenceIds": [] },
+          { "institution": "Carnegie Mellon University", "degree": "B.S.", "field": null, "period": null, "evidenceIds": [] }
+        ],
+        "employment": [
+          { "organization": "Stanford University", "role": "Adjunct Professor", "period": null, "evidenceIds": [] },
+          { "organization": "DeepLearning.AI", "role": "Founder", "period": null, "evidenceIds": [] },
+          { "organization": "Coursera", "role": "Co-founder", "period": null, "evidenceIds": [] }
+        ],
+        "researchAreas": ["machine learning", "deep learning", "artificial intelligence", "online education"],
+        "location": "Stanford, California",
+        "biography": [
+          { "text": "Adjunct Professor of Computer Science at Stanford University.", "evidenceIds": [] },
+          { "text": "Co-founded Google Brain, a deep learning research team at Google.", "evidenceIds": [] },
+          { "text": "Served as Chief Scientist at Baidu, leading its AI organization.", "evidenceIds": [] },
+          { "text": "Co-founded Coursera and founded DeepLearning.AI to scale AI education.", "evidenceIds": [] },
+          { "text": "Named to the Time 100 list of the most influential people in 2013.", "evidenceIds": [] }
+        ]
+      },
+      "candidates": [
+        { "name": "Andrew Ng", "source": "university", "source_url": "https://profiles.stanford.edu/andrew-ng", "match_score": 95, "match_status": "high_confidence_match", "title": "Andrew Ng — Stanford Profiles", "snippet": "Adjunct Professor of Computer Science at Stanford University." },
+        { "name": "Andrew Ng", "source": "google_scholar", "source_url": "https://scholar.google.com/citations?user=mG4imMEAAAAJ", "match_score": 93, "match_status": "high_confidence_match", "title": "Andrew Ng — Google Scholar", "snippet": "Public citation profile for Andrew Ng, machine learning." },
+        { "name": "Andrew Ng", "source": "web_search", "source_url": "https://www.andrewng.org", "match_score": 90, "match_status": "high_confidence_match", "title": "Andrew Ng — Personal website", "snippet": "Founder of DeepLearning.AI; co-founder of Coursera." }
+      ],
+      "evidence": [
+        { "claim": "Andrew Ng is affiliated with Stanford University", "evidence_text": "Stanford Profiles lists Andrew Ng as Adjunct Professor of Computer Science.", "source_name": "profiles.stanford.edu", "source_url": "https://profiles.stanford.edu/andrew-ng", "evidence_type": "employment", "confidence": 95 },
+        { "claim": "Andrew Ng founded DeepLearning.AI", "evidence_text": "andrewng.org describes DeepLearning.AI as founded by Andrew Ng.", "source_name": "andrewng.org", "source_url": "https://www.andrewng.org", "evidence_type": "employment", "confidence": 90 },
+        { "claim": "Andrew Ng co-founded Coursera", "evidence_text": "Coursera's public about page lists Andrew Ng as co-founder.", "source_name": "coursera.org", "source_url": "https://www.coursera.org/about", "evidence_type": "employment", "confidence": 90 },
+        { "claim": "Andrew Ng has a public Google Scholar record", "evidence_text": "Google Scholar public citation profile for Andrew Ng (user mG4imMEAAAAJ).", "source_name": "scholar.google.com", "source_url": "https://scholar.google.com/citations?user=mG4imMEAAAAJ", "evidence_type": "profile_link", "confidence": 93 },
+        { "claim": "Andrew Ng studied at UC Berkeley", "evidence_text": "Public biographies consistently list a Ph.D. in Computer Science from UC Berkeley.", "source_name": "andrewng.org", "source_url": "https://www.andrewng.org", "evidence_type": "education", "confidence": 85 }
+      ],
+      "publications": [
+        { "title": "Latent Dirichlet Allocation", "authors": ["David M. Blei", "Andrew Y. Ng", "Michael I. Jordan"], "year": 2003, "venue": "Journal of Machine Learning Research", "url": "https://www.jmlr.org/papers/v3/blei03a.html", "source": "web" },
+        { "title": "On Spectral Clustering: Analysis and an algorithm", "authors": ["Andrew Y. Ng", "Michael I. Jordan", "Yair Weiss"], "year": 2001, "venue": "NeurIPS", "url": "https://proceedings.neurips.cc/paper/2001/hash/801272ee79cfde7fa5960571fee36b9b-Abstract.html", "source": "web" },
+        { "title": "Building High-level Features Using Large Scale Unsupervised Learning", "authors": ["Quoc V. Le", "Marc'Aurelio Ranzato", "Rajat Monga", "Matthieu Devin", "Kai Chen", "Greg S. Corrado", "Jeffrey Dean", "Andrew Y. Ng"], "year": 2012, "venue": "ICML", "url": "https://dl.acm.org/doi/10.5555/3042573.3042641", "source": "web" }
+      ],
+      "profiles": [
+        { "platform": "website", "username": null, "url": "https://www.andrewng.org", "description": "Personal website" },
+        { "platform": "google_scholar", "username": "mG4imMEAAAAJ", "url": "https://scholar.google.com/citations?user=mG4imMEAAAAJ", "description": "Public citation profile" },
+        { "platform": "website", "username": null, "url": "https://profiles.stanford.edu/andrew-ng", "description": "Stanford University profile" },
+        { "platform": "x", "username": "AndrewYNg", "url": "https://x.com/AndrewYNg", "description": "Public X/Twitter profile" },
+        { "platform": "linkedin", "username": "andrewyng", "url": "https://www.linkedin.com/in/andrewyng", "description": "Public LinkedIn profile" }
+      ]
+    },
+    {
+      "id": "fei-fei-li",
+      "name": "Fei-Fei Li",
+      "identity_status": "resolved",
+      "confidence": 88,
+      "profile": {
+        "headline": "Computer Scientist · Computer Vision · Stanford University",
+        "summary": "Fei-Fei Li is a computer scientist known for work in computer vision and for creating ImageNet. Public records associate her with Stanford University and the Stanford Institute for Human-Centered AI.",
+        "education": [
+          { "institution": "California Institute of Technology", "degree": "Ph.D.", "field": "Electrical Engineering", "period": null, "evidenceIds": [] },
+          { "institution": "Princeton University", "degree": "B.A.", "field": "Physics", "period": null, "evidenceIds": [] }
+        ],
+        "employment": [
+          { "organization": "Stanford University", "role": "Professor of Computer Science", "period": null, "evidenceIds": [] },
+          { "organization": "Stanford HAI", "role": "Co-Director", "period": null, "evidenceIds": [] }
+        ],
+        "researchAreas": ["computer vision", "artificial intelligence", "machine learning", "human-centered AI"],
+        "location": "Stanford, California",
+        "biography": [
+          { "text": "Professor of Computer Science at Stanford University.", "evidenceIds": [] },
+          { "text": "Co-director of the Stanford Institute for Human-Centered AI (HAI).", "evidenceIds": [] },
+          { "text": "Created ImageNet, the dataset credited with catalyzing the deep-learning boom.", "evidenceIds": [] },
+          { "text": "Former Google VP and Chief Scientist of AI/ML at Google Cloud.", "evidenceIds": [] },
+          { "text": "Co-founder and chair of the education nonprofit AI4ALL.", "evidenceIds": [] },
+          { "text": "Founder and CEO of spatial-intelligence company World Labs.", "evidenceIds": [] }
+        ]
+      },
+      "candidates": [
+        { "name": "Fei-Fei Li", "source": "university", "source_url": "https://profiles.stanford.edu/fei-fei-li", "match_score": 94, "match_status": "high_confidence_match", "title": "Fei-Fei Li — Stanford Profiles", "snippet": "Professor of Computer Science at Stanford University." },
+        { "name": "Fei-Fei Li", "source": "web_search", "source_url": "https://hai.stanford.edu/people/fei-fei-li", "match_score": 90, "match_status": "high_confidence_match", "title": "Fei-Fei Li — Stanford HAI", "snippet": "Co-Director of the Stanford Institute for Human-Centered AI." }
+      ],
+      "evidence": [
+        { "claim": "Fei-Fei Li is a professor at Stanford University", "evidence_text": "Stanford Profiles lists Fei-Fei Li as Professor of Computer Science.", "source_name": "profiles.stanford.edu", "source_url": "https://profiles.stanford.edu/fei-fei-li", "evidence_type": "employment", "confidence": 94 },
+        { "claim": "Fei-Fei Li is co-director of Stanford HAI", "evidence_text": "Stanford HAI lists Fei-Fei Li as Co-Director.", "source_name": "hai.stanford.edu", "source_url": "https://hai.stanford.edu/people/fei-fei-li", "evidence_type": "employment", "confidence": 90 },
+        { "claim": "Fei-Fei Li created the ImageNet dataset", "evidence_text": "ImageNet publications list Fei-Fei Li as lead author.", "source_name": "image-net.org", "source_url": "https://www.image-net.org", "evidence_type": "publication", "confidence": 88 }
+      ],
+      "publications": [
+        { "title": "ImageNet: A large-scale hierarchical image database", "authors": ["Jia Deng", "Wei Dong", "Richard Socher", "Li-Jia Li", "Kai Li", "Fei-Fei Li"], "year": 2009, "venue": "CVPR", "url": "https://ieeexplore.ieee.org/document/5206848", "source": "web" },
+        { "title": "ImageNet Large Scale Visual Recognition Challenge", "authors": ["Olga Russakovsky", "Jia Deng", "Hao Su", "Jonathan Krause", "Sanjeev Satheesh", "Sean Ma", "Zhiheng Huang", "Andrej Karpathy", "Aditya Khosla", "Michael Bernstein", "Alexander C. Berg", "Fei-Fei Li"], "year": 2015, "venue": "IJCV", "url": "https://link.springer.com/article/10.1007/s11263-015-0816-y", "source": "web" }
+      ],
+      "profiles": [
+        { "platform": "website", "username": null, "url": "https://profiles.stanford.edu/fei-fei-li", "description": "Stanford University profile" },
+        { "platform": "website", "username": null, "url": "https://hai.stanford.edu/people/fei-fei-li", "description": "Stanford HAI profile" },
+        { "platform": "x", "username": "drfeifei", "url": "https://x.com/drfeifei", "description": "Public X/Twitter profile" }
+      ]
+    },
+    {
+      "id": "yann-lecun",
+      "name": "Yann LeCun",
+      "identity_status": "resolved",
+      "confidence": 90,
+      "profile": {
+        "headline": "Computer Scientist · Deep Learning · NYU / Meta",
+        "summary": "Yann LeCun is a computer scientist known for foundational work on convolutional networks and deep learning. Public records associate him with New York University and Meta, and he is a recipient of the 2018 ACM Turing Award.",
+        "education": [
+          { "institution": "Université Pierre et Marie Curie (Paris VI)", "degree": "Ph.D.", "field": "Computer Science", "period": null, "evidenceIds": [] }
+        ],
+        "employment": [
+          { "organization": "New York University", "role": "Silver Professor", "period": null, "evidenceIds": [] },
+          { "organization": "Meta", "role": "Chief AI Scientist", "period": null, "evidenceIds": [] }
+        ],
+        "researchAreas": ["deep learning", "computer vision", "machine learning", "artificial intelligence"],
+        "location": "New York City",
+        "biography": [
+          { "text": "Silver Professor at the Courant Institute, New York University.", "evidenceIds": [] },
+          { "text": "Chief AI Scientist at Meta.", "evidenceIds": [] },
+          { "text": "Recipient of the 2018 ACM A.M. Turing Award with Yoshua Bengio and Geoffrey Hinton.", "evidenceIds": [] },
+          { "text": "Known for foundational work on convolutional neural networks and deep learning.", "evidenceIds": [] },
+          { "text": "Former director of Facebook AI Research (FAIR).", "evidenceIds": [] }
+        ]
+      },
+      "candidates": [
+        { "name": "Yann LeCun", "source": "web_search", "source_url": "https://yann.lecun.com", "match_score": 95, "match_status": "high_confidence_match", "title": "Yann LeCun — Personal website", "snippet": "Silver Professor at NYU; Chief AI Scientist at Meta." },
+        { "name": "Yann LeCun", "source": "university", "source_url": "https://cs.nyu.edu/~yann/", "match_score": 93, "match_status": "high_confidence_match", "title": "Yann LeCun — NYU Courant", "snippet": "Faculty page at the Courant Institute of Mathematical Sciences." }
+      ],
+      "evidence": [
+        { "claim": "Yann LeCun is a professor at New York University", "evidence_text": "NYU Courant faculty page for Yann LeCun.", "source_name": "cs.nyu.edu", "source_url": "https://cs.nyu.edu/~yann/", "evidence_type": "employment", "confidence": 93 },
+        { "claim": "Yann LeCun is Chief AI Scientist at Meta", "evidence_text": "yann.lecun.com lists his role at Meta.", "source_name": "yann.lecun.com", "source_url": "https://yann.lecun.com", "evidence_type": "employment", "confidence": 92 },
+        { "claim": "Yann LeCun received the 2018 ACM Turing Award", "evidence_text": "ACM A.M. Turing Award page lists Yann LeCun as a 2018 laureate.", "source_name": "amturing.acm.org", "source_url": "https://amturing.acm.org/award_winners/lecun_5616766.cfm", "evidence_type": "other", "confidence": 95 }
+      ],
+      "publications": [
+        { "title": "Deep Learning", "authors": ["Yann LeCun", "Yoshua Bengio", "Geoffrey Hinton"], "year": 2015, "venue": "Nature", "url": "https://www.nature.com/articles/nature14539", "source": "web" },
+        { "title": "Gradient-based learning applied to document recognition", "authors": ["Yann LeCun", "Léon Bottou", "Yoshua Bengio", "Patrick Haffner"], "year": 1998, "venue": "Proceedings of the IEEE", "url": "https://ieeexplore.ieee.org/document/726791", "source": "web" }
+      ],
+      "profiles": [
+        { "platform": "website", "username": null, "url": "https://yann.lecun.com", "description": "Personal website" },
+        { "platform": "website", "username": null, "url": "https://cs.nyu.edu/~yann/", "description": "NYU faculty page" },
+        { "platform": "x", "username": "ylecun", "url": "https://x.com/ylecun", "description": "Public X/Twitter profile" }
+      ]
+    }
+  ]
+}

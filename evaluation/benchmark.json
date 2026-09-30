@@ -1,0 +1,139 @@
+{
+  "version": "0.1.0",
+  "description": "Labeled candidate pairs for entity-resolution evaluation. Each pair has a ground-truth decision and can be evaluated under name_only, metadata, or multimodal evidence modes. Predictions are produced by the system under test — this file contains labels only, no results.",
+  "pairs": [
+    {
+      "id": "pair-001",
+      "query_name": "Andrew Ng",
+      "modes": ["name_only", "metadata", "multimodal"],
+      "candidate": {
+        "name": "Andrew Ng",
+        "source": "university",
+        "source_url": "https://profiles.stanford.edu/andrew-ng",
+        "metadata": {
+          "organization": "Stanford University",
+          "topics": ["machine learning", "deep learning"],
+          "cross_links": ["https://www.andrewng.org"]
+        },
+        "image_context": ["Stanford University", "machine learning"]
+      },
+      "ground_truth": "same_person"
+    },
+    {
+      "id": "pair-002",
+      "query_name": "Andrew Ng",
+      "modes": ["name_only", "metadata", "multimodal"],
+      "candidate": {
+        "name": "Andrew Ng",
+        "source": "web_search",
+        "source_url": "https://www.andrewng.org",
+        "metadata": {
+          "organization": "DeepLearning.AI",
+          "topics": ["machine learning", "online education"],
+          "cross_links": ["https://profiles.stanford.edu/andrew-ng"]
+        },
+        "image_context": ["DeepLearning.AI", "Coursera"]
+      },
+      "ground_truth": "same_person"
+    },
+    {
+      "id": "pair-003",
+      "query_name": "Andrew Ng",
+      "modes": ["name_only", "metadata"],
+      "candidate": {
+        "name": "Andrew Ng",
+        "source": "web_search",
+        "source_url": "https://example.org/andrew-ng-plumber",
+        "metadata": {
+          "organization": "Ng Plumbing Ltd.",
+          "topics": ["plumbing", "construction"],
+          "cross_links": []
+        }
+      },
+      "ground_truth": "different_person"
+    },
+    {
+      "id": "pair-004",
+      "query_name": "Fei-Fei Li",
+      "modes": ["name_only", "metadata", "multimodal"],
+      "candidate": {
+        "name": "Fei-Fei Li",
+        "source": "university",
+        "source_url": "https://profiles.stanford.edu/fei-fei-li",
+        "metadata": {
+          "organization": "Stanford University",
+          "topics": ["computer vision", "artificial intelligence"],
+          "cross_links": ["https://hai.stanford.edu/people/fei-fei-li"]
+        },
+        "image_context": ["Stanford HAI", "computer vision"]
+      },
+      "ground_truth": "same_person"
+    },
+    {
+      "id": "pair-005",
+      "query_name": "Fei-Fei Li",
+      "modes": ["name_only", "metadata"],
+      "candidate": {
+        "name": "Fei Li",
+        "source": "web_search",
+        "source_url": "https://example.org/fei-li-chef",
+        "metadata": {
+          "organization": "Li Catering",
+          "topics": ["culinary arts"],
+          "cross_links": []
+        }
+      },
+      "ground_truth": "different_person"
+    },
+    {
+      "id": "pair-006",
+      "query_name": "Yann LeCun",
+      "modes": ["name_only", "metadata", "multimodal"],
+      "candidate": {
+        "name": "Yann LeCun",
+        "source": "university",
+        "source_url": "https://cs.nyu.edu/~yann/",
+        "metadata": {
+          "organization": "New York University",
+          "topics": ["deep learning", "machine learning"],
+          "cross_links": ["https://yann.lecun.com"]
+        },
+        "image_context": ["New York University", "Meta"]
+      },
+      "ground_truth": "same_person"
+    },
+    {
+      "id": "pair-007",
+      "query_name": "Yann LeCun",
+      "modes": ["name_only", "metadata"],
+      "candidate": {
+        "name": "Yan Lecun",
+        "source": "web_search",
+        "source_url": "https://example.org/yan-lecun-artist",
+        "metadata": {
+          "organization": "Studio Lecun",
+          "topics": ["sculpture"],
+          "cross_links": []
+        }
+      },
+      "ground_truth": "different_person"
+    },
+    {
+      "id": "pair-008",
+      "query_name": "Andrew Ng",
+      "modes": ["metadata", "multimodal"],
+      "candidate": {
+        "name": "Andrew Y. Ng",
+        "source": "google_scholar",
+        "source_url": "https://scholar.google.com/citations?user=mG4imMEAAAAJ",
+        "metadata": {
+          "organization": "Stanford University",
+          "topics": ["machine learning"],
+          "cross_links": ["https://profiles.stanford.edu/andrew-ng"]
+        },
+        "image_context": ["Stanford University"]
+      },
+      "ground_truth": "same_person"
+    }
+  ]
+}

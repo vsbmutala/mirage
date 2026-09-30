@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #fafafa;
+  --color-foreground: #111318;
+  --color-muted: #5c6370;
+  --color-border: #e4e6eb;
+  --color-card: #ffffff;
+  --color-accent: #3b4fd8;
+  --color-accent-foreground: #ffffff;
+  --color-accent-subtle: #eef0fb;
+  --color-success: #18794e;
+  --color-warning: #b25e09;
+  --color-danger: #cd2b31;
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--color-accent);
+  color: #fff;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-dot {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.35;
+  }
+}
+
+.anim-fade-up {
+  animation: fade-up 0.4s ease-out both;
+}
+
+.anim-pulse-dot {
+  animation: pulse-dot 1.4s ease-in-out infinite;
+}
+
+/* React Flow polish */
+.react-flow__attribution {
+  display: none;
+}
