@@ -39,7 +39,7 @@ export async function POST(req: Request) {
     const extraction = await extractVisionClues(buffer, file.type);
     return NextResponse.json(extraction);
   } catch (err) {
-    console.error("[api/vision] failed:", err);
+    console.error("[api/vision] failed::", err);
     return NextResponse.json(
       { error: "We couldn't analyze this image right now." },
       { status: 502 }
